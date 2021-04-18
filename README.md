@@ -25,7 +25,7 @@ uBlock Origin
       </sup>
 </sup>
 <br>
-<sub><a href="https://github.com/gorhill/uBlock/wiki/uBlock-Origin-is-completely-unrelated-to-the-web-site-ublock.org"><b>주의하세요!</b> uBlock Origin은 <code>ublock.org</code>와 전혀 상관 없습니다</a>.</sub>
+<sub><a href="https://github.com/gorhill/uBlock/wiki/uBlock-Origin-is-completely-unrelated-to-the-web-site-ublock.org"><b>주의하세요!</b> uBlock Origin은 <code>ublock.org</code>와 전혀 연관이 없습니다</a>.</sub>
 </p>
 
 ***
@@ -71,15 +71,15 @@ uBlock Origin은 단순한 광고 차단 기능만 하는 프로그램이 **아�
 
 ## 우리의 철학
 
-uBlock Origin (또는 uBlock₀) 단순한 *광고 차단 프로그램* 이 아닌, 여러가지 상황에서 쓸 수 있는 범용 차단 프로그램 입니다. uBlock Origin은 [Adblock Plus 필터 구문](https://adblockplus.org/en/filters)을 이용해 광고를 차단합니다. uBlock Origin 은 확장된 [문법들](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions) 을 통하여 사용자가 만든 규칙들과 필터를 사용할수 있도록 만들어 졌습니다. Furthermore, advanced mode allows uBlock Origin to work in [default-deny mode](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-default-deny), which mode will cause [all 3rd-party network requests](https://requestpolicycontinued.github.io/#what-are-cross-site-requests) to be blocked by default, unless allowed by the user.
+uBlock Origin (또는 uBlock₀) 단순한 *광고 차단 프로그램* 이 아닌, 여러가지 상황에서 쓸 수 있는 범용 차단 프로그램 입니다. uBlock Origin은 [Adblock Plus 필터 구문](https://adblockplus.org/en/filters)을 이용해 광고를 차단합니다. uBlock Origin 은 확장된 [문법들](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions) 을 통하여 사용자가 만든 규칙들과 필터를 사용할수 있도록 만들어 졌습니다. 게다가 고급 사용자 모드에서는 유저가 승인하지 않는한, [모든 외부 네트워크 연결](https://requestpolicycontinued.github.io/#what-are-cross-site-requests)을 차단하는  [기본-차단 모드](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-default-deny)가 있습니다.
 
-기억해두세요, 이 차단 프로그램을 사용하는것은, *절대로* [도둑질을 하는것](https://twitter.com/LeaVerou/status/518154828166725632)이  아닙니다. Don't fall for this creepy idea. The _ultimate_ logical consequence of `광고 차단 프로그램을 사용하는것 = 도둑질이다` is the criminalisation of the inalienable right to privacy.
+이 차단 프로그램을 사용하는것은, *절대로* [도둑질을 하는것](https://twitter.com/LeaVerou/status/518154828166725632)이  아닙니다. `광고 차단 프로그램을 사용하는것 = 도둑질이다` 라는 꿈짝한 논리라면, 이는 개인의 불가침적인 개인정보 권리에 대한 범죄일뿐 입니다.
 
-Ads, "unintrusive" or not, are just the visible portions of privacy-invading apparatus entering your browser when you visit most sites nowadays. **uBlock Origin's main goal is to help users neutralize such privacy-invading apparatus** — in a way that welcomes those users who don't wish to use more technical, involved means (such as [uMatrix](https://github.com/gorhill/uMatrix)).
+여러분의 브라우저가 접속하는 웹사이트에서 광고들은 개인정보 수집 프로그램으로 작동합니다. **uBlock Origin의 주된 목적은 이런 종류의 사생활 침해적 프로그램들을 무력화 시킬수 있도록 사용자들을 돕는 것 입니다.** 더 나아가 기술적인 내용을 잘 알지 않는 사용자들도 참여 할수 있도록 [uMatrix](https://github.com/gorhill/uMatrix) 같은 사용 방법 또한 마련했습니다.
 
-_EasyList_, _EasyPrivacy_, _Peter Lowe's_, _Online Malicious URL Blocklist_ 그리고 uBO의 자체 필터들과 함께 설치되고, 기본적으로 활성화 됩니다. Many more lists are readily available to block trackers, analytics, and more.Hosts 파일 또한 지원됩니다.
+기본적으로 _EasyList_, _EasyPrivacy_, _Peter Lowe's_, _Online Malicious URL Blocklist_ 그리고 uBO의 자체 필터들과 함께 설치되고, 활성화 됩니다. 추적기등을 차단하기 위한 여러 필터들 또한 사용해 보실수도 있습니다. Hosts 파일 또한 지원됩니다.
 
-uBlock Origin을 설치한 후, 너무 필터가 너무 많은것들을 차단한다고 생각하시면, 여러분은 쉽게 기본 필터를 비활성화 할수 있습니다. Adblock Plus의 경우 _EasyList_ 만 기본적으로 활성화 되어 있습니다.
+uBlock Origin을 설치한 후, 너무 필터가 너무 많이 차단한다고 생각하신다면, 쉽게 기본 필터들을 비활성화 할수 있습니다. 참고로 Adblock Plus의 경우 _EasyList_ 만 기본적으로 활성화 되어 있습니다.
 
 ## 설치 방법
 
@@ -87,9 +87,9 @@ uBlock Origin을 설치한 후, 너무 필터가 너무 많은것들을 차단�
 
 #### Chromium
 
-최신 버전을 [수동](https://github.com/gorhill/uBlock/tree/master/dist#install)으로 설치하거나, [크롬 웹스토어](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), 혹은 [오페라 애드온 웹사이트](https://addons.opera.com/extensions/details/ublock/)를 통해 설치할수 있습니다.
+최신 버전을 [수동](https://github.com/gorhill/uBlock/tree/master/dist#install)으로 설치하거나, [Chrome 웹스토어](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), 혹은 [Opera 애드온 웹사이트](https://addons.opera.com/extensions/details/ublock/)를 통해 설치할수 있습니다.
 
-There is also a development version in the Chrome Web Store if you want to test uBlock Origin with the latest changes: see [_uBlock Origin dev build_](https://chrome.google.com/webstore/detail/ublock-origin-dev-build/cgbcahbpdhpcegmbfconppldiemgcoii).
+uBlock Origin의 테스트 버전을 사용해보고 싶으시다면, [Chrome 웹스토어](https://chrome.google.com/webstore/detail/ublock-origin-dev-build/cgbcahbpdhpcegmbfconppldiemgcoii)을 확인해 보세요.
 
 uBlock Origin은 어떠한 크로미움 기반 브라우저에도 적용될수 있도록 설계되었습니다.
 
@@ -97,16 +97,16 @@ uBlock Origin은 어떠한 크로미움 기반 브라우저에도 적용될수 �
 
 [Firefox 애드온 웹사이트](https://addons.mozilla.org/addon/ublock-origin/)
 
-uBlock Origin의 테스트 버전을 사용해보고 싶으시다면, [Install / Firefox webext / For beta version](https://github.com/gorhill/uBlock/blob/master/dist/README.md#for-beta-version)를 확인해 주세요.
+uBlock Origin의 테스트 버전을 사용해보고 싶으시다면, [Install / Firefox webext / For beta version](https://github.com/gorhill/uBlock/blob/master/dist/README.md#for-beta-version)을 확인해 보세요.
 
-uBlock Origin은 [SeaMonkey](http://www.seamonkey-project.org/), [Pale Moon](https://www.palemoon.org/) 그리고 Firefox 기반 브라우저들과 호환됩니다. 설치를 위해서는 [Install / Firefox legacy](https://github.com/gorhill/uBlock/blob/master/dist/README.md#firefox-legacy)를 확인해 주세요.
+uBlock Origin은 [SeaMonkey](http://www.seamonkey-project.org/), [Pale Moon](https://www.palemoon.org/) 그리고 Firefox 기반 브라우저들과 호환됩니다. 설치를 위해서는 [Install / Firefox legacy](https://github.com/gorhill/uBlock/blob/master/dist/README.md#firefox-legacy)를 확인해 보세요.
 
-[데비안 패키지 매니저](https://packages.debian.org/stable/source/ublock-origin)를 통해서도 uBlock Origin을 설치 할수 있습니다:
+[Debian 패키지 매니저](https://packages.debian.org/stable/source/ublock-origin)를 통해서도 uBlock Origin을 설치 할수 있습니다:
 
 - Firefox 56 이하: `apt-get install xul-ext-ublock-origin`
 - Firefox 55 이상: `apt-get install webext-ublock-origin`
 
-There is no guarantee the package will be available on your specific platform -- in which case, you will have to install from [Firefox Add-ons web site](https://addons.mozilla.org/addon/ublock-origin/).
+여러분의 기기에서 패키지가 작동할지 장담할수 없습니다. 그런 경우에는 [Firefox 애드온 웹사이트](https://addons.mozilla.org/addon/ublock-origin/)에서 설치 해주세요.
 
 #### Microsoft Edge
 
@@ -126,7 +126,7 @@ There is no guarantee the package will be available on your specific platform --
 
 #### 브라우저 공통
 
-uBlock Origin의 효율을 극대화 하기 위해, 다른 차단 프로그램들(Adblock Plus, AdBlock)과 같이 사용하지 마세요. uBlock Origin은 유명한 다른 차단 프로그램들보다 [더 높거나 같은](#blocking) 성능을 갖고 있습니다. 다른 차단 프로그램과 함께 사용하면 uBlock Origin의 개인정보 보호기능, 차단 회피 방해 기능들이 작동하는것을 방해 할수도 있습니다.
+uBlock Origin의 효율을 극대화 하기 위해, 다른 차단 프로그램들(Adblock Plus, AdBlock)과 같이 사용하지 마세요. uBlock Origin은 유명한 다른 차단 프로그램들보다 [동등하거나 더 높은](#blocking) 성능을 갖고 있습니다. 다른 차단 프로그램과 함께 사용한다면 uBlock Origin의 개인정보 보호기능, 차단 회피 방해 기능들이 작동하지 않을수도 있습니다.
 
 #### 그룹 배포
 
@@ -146,7 +146,7 @@ uBlock Origin의 효율을 극대화 하기 위해, 다른 차단 프로그램�
 
 무료이며, 오픈소스이며, 사용자의, 사용자에 의한, 사용자를 위한 프로그램입니다. 어떠한 기부도 바라지 않습니다.
 
-이 프로그램에 포함되어 있는 필터가 없다면, 이 프로그램은 쓸모가 없어집니다. 그러니 어떤것이라도 기여하고 싶은 마음이 든신다면, 무료로 쓸 수 있게 만들어진 필터에 기여해 주세요.
+이 프로그램에 포함되어 있는 필터가 없다면, 이 프로그램은 쓸모가 없어집니다. 그러니 어떤것이라도 기여하고 싶은 마음이 든신다면, 무료로 쓸 수 있게 만들어진 필터에 기여해 보세요.
 
 여러분들은 uBlock Origin의 번역을 [Crowdin](https://crowdin.net/project/ublock)에서 도와 주실수 있습니다.
 
