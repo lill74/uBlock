@@ -1,6 +1,6 @@
-[![빌드](https://travis-ci.org/gorhill/uBlock.svg?branch=master)](https://travis-ci.org/gorhill/uBlock)
-[![번역참여](https://d322cqt584bo4o.cloudfront.net/ublock/localized.svg)](https://crowdin.com/project/ublock)
-[![라이센스](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/gorhill/uBlock/blob/master/LICENSE.txt)
+[![Build](https://travis-ci.org/gorhill/uBlock.svg?branch=master)](https://travis-ci.org/gorhill/uBlock)
+[![Crowdin](https://d322cqt584bo4o.cloudfront.net/ublock/localized.svg)](https://crowdin.com/project/ublock)
+[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/gorhill/uBlock/blob/master/LICENSE.txt)
 
 *** 
 
@@ -126,19 +126,19 @@ Note that issues specific to the Safari fork are the responsibility of the curre
 
 #### Note for all browsers
 
-To benefit from uBlock Origin's higher efficiency, it's advised that you don't use other content blockers at the same time (such as Adblock Plus, AdBlock). uBlock Origin will do [as well or better](#blocking) than most popular ad blockers. Other blockers can also prevent uBlock Origin's privacy or anti-blocker-defusing features from working properly.
+uBlock Origin의 효율을 극대화 하기 위해, 다른 차단 프로그램들(Adblock Plus, AdBlock)과 같이 사용하지 마세요. uBlock Origin은 유명한 다른 차단 프로그램들보다 [더 높거나 같은](#blocking) 성능을 갖고 있습니다. 다른 차단 프로그램과 함께 사용하면 uBlock Origin의 개인정보 보호기능, 차단 회피 방해 기능들이 작동하는것을 방해 할수도 있습니다.
 
-#### 배포
+#### 그룹 배포
 
-Below is documentation to assist administrators in deploying uBlock Origin:
+아래 내용은 그룹 관리자가 그룹에 uBlock Origin을 설치하는 방법에 대해 소개합니다.
 
 - [uBlock Origin 배포하기](https://github.com/gorhill/uBlock/wiki/Deploying-uBlock-Origin)
-    - Firefox: [Deploying uBlock Origin for Firefox with CCK2 and Group Policy](http://decentsecurity.com/ublock-for-firefox-deployment/) (외부링크)
-    - Google Chrome: [Managing Google Chrome with adblocking and security](https://decentsecurity.com/ublock-for-google-chrome-deployment/) (외부링크)
+    - Firefox: [CCK2와 그룹 정책으로 Firefox 설치하기](http://decentsecurity.com/ublock-for-firefox-deployment/) (외부링크)
+    - Google Chrome: [Google Chrome 광고차단 기능 추가하기](https://decentsecurity.com/ublock-for-google-chrome-deployment/) (외부링크)
 
 ## 릴리즈 내역
 
-[릴리즈 페이지](https://github.com/gorhill/uBlock/releases) 에서 릴리즈 내역과 릴리즈에 대한 하이라으트 부분을 볼 수 있습니다.
+[릴리즈 페이지](https://github.com/gorhill/uBlock/releases) 에서 릴리즈 내역과 릴리즈에 대한 하이라이트 부분을 볼 수 있습니다.
 
 ## 정보
 
@@ -155,4 +155,5 @@ Below is documentation to assist administrators in deploying uBlock Origin:
 [GPLv3](https://github.com/gorhill/uBlock/blob/master/LICENSE.txt).
 
 ## 번역 문의
+
 Issuse 탭을 이용해 주세요.
