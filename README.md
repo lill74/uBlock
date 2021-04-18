@@ -47,14 +47,14 @@ uBlock Origin은 단순한 광고 차단 기능만 하는 프로그램이 **아�
 
 ***
 
-* [설명서](#documentation)
-* [일반 정보](#philosophy)
-* [설치방법](#installation)
+* [설명서](#설명서)
+* [일반 정보](#우리의-철학)
+* [설치방법](#설치-방법)
   * [Chromium](#chromium)
   * [Firefox](#firefox--firefox-for-android)
   * [Microsoft Edge](#microsoft-edge)
   - [Safari (macOS)](#safari-macos)
-* [릴리즈 내역](#release-history)
+* [릴리즈 내역](#릴리즈-내역)
 * [개인정보 보호 방침](https://github.com/gorhill/uBlock/wiki/Privacy-policy)
 * [위키](https://github.com/gorhill/uBlock/wiki)
 
@@ -77,9 +77,9 @@ uBlock Origin (또는 uBlock₀) 단순한 *광고 차단 프로그램* 이 아�
 
 Ads, "unintrusive" or not, are just the visible portions of privacy-invading apparatus entering your browser when you visit most sites nowadays. **uBlock Origin's main goal is to help users neutralize such privacy-invading apparatus** — in a way that welcomes those users who don't wish to use more technical, involved means (such as [uMatrix](https://github.com/gorhill/uMatrix)).
 
-_EasyList_, _EasyPrivacy_, _Peter Lowe's_, _Online Malicious URL Blocklist_ and uBO's own lists are enabled by default when you install uBlock Origin. Many more lists are readily available to block trackers, analytics, and more. Hosts files are also supported.
+_EasyList_, _EasyPrivacy_, _Peter Lowe's_, _Online Malicious URL Blocklist_ 그리고 uBO의 자체 필터들과 함께 설치되고, 기본적으로 활성화 됩니다. Many more lists are readily available to block trackers, analytics, and more.Hosts 파일 또한 지원됩니다.
 
-Once you install uBlock Origin, you may easily un-select any of the pre-selected filter lists if you think uBlock Origin blocks too much. For reference, Adblock Plus installs with only _EasyList_ enabled by default.
+uBlock Origin을 설치한 후, 너무 필터가 너무 많은것들을 차단한다고 생각하시면, 여러분은 쉽게 기본 필터를 비활성화 할수 있습니다. Adblock Plus의 경우 _EasyList_ 만 기본적으로 활성화 되어 있습니다.
 
 ## 설치 방법
 
@@ -97,9 +97,9 @@ uBlock Origin은 어떠한 크로미움 기반 브라우저에도 적용될수 �
 
 [Firefox 애드온 웹사이트](https://addons.mozilla.org/addon/ublock-origin/)
 
-uBlock Origin의 테스트 버전을 사용해보고 싶으시다면, [Install / Firefox webext / For beta version](https://github.com/gorhill/uBlock/blob/master/dist/README.md#for-beta-version)
+uBlock Origin의 테스트 버전을 사용해보고 싶으시다면, [Install / Firefox webext / For beta version](https://github.com/gorhill/uBlock/blob/master/dist/README.md#for-beta-version)를 확인해 주세요.
 
-uBlock Origin is compatible with [SeaMonkey](http://www.seamonkey-project.org/), [Pale Moon](https://www.palemoon.org/), and possibly other browsers based on Firefox: for installation, see [Install / Firefox legacy](https://github.com/gorhill/uBlock/blob/master/dist/README.md#firefox-legacy).
+uBlock Origin은 [SeaMonkey](http://www.seamonkey-project.org/), [Pale Moon](https://www.palemoon.org/) 그리고 Firefox 기반 브라우저들과 호환됩니다. 설치를 위해서는 [Install / Firefox legacy](https://github.com/gorhill/uBlock/blob/master/dist/README.md#firefox-legacy)를 확인해 주세요.
 
 [데비안 패키지 매니저](https://packages.debian.org/stable/source/ublock-origin)를 통해서도 uBlock Origin을 설치 할수 있습니다:
 
@@ -112,7 +112,7 @@ There is no guarantee the package will be available on your specific platform --
 
 제작자: [Nik Rolls](https://github.com/nikrolls/uBlock-Edge)
 
-크로미움 기반 Edge: Stable version available in [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/odfafepnkmbhccpbejgmiehpchacaeak).
+크로미움 기반 Edge: [Edge 에드온 웹사이트](https://microsoftedge.microsoft.com/addons/detail/odfafepnkmbhccpbejgmiehpchacaeak).
 
 #### Safari (macOS)
 
@@ -122,9 +122,9 @@ There is no guarantee the package will be available on your specific platform --
 
 주의하세요! Safari 13 이상에서는 uBlock Origin과 같은 프로그램들이 작동하지 않습니다 <https://github.com/el1t/uBlock-Safari/issues/158>를 확인해 보세요.
 
-Note that issues specific to the Safari fork are the responsibility of the current maintainer, I have no control over the code base of the fork.
+현재 Safari는 포크 메인테이터에 의해서 관리중입니다, uBlock Origin은 코드 베이스에 대한 권한이 없습니다.
 
-#### Note for all browsers
+#### 브라우저 공통
 
 uBlock Origin의 효율을 극대화 하기 위해, 다른 차단 프로그램들(Adblock Plus, AdBlock)과 같이 사용하지 마세요. uBlock Origin은 유명한 다른 차단 프로그램들보다 [더 높거나 같은](#blocking) 성능을 갖고 있습니다. 다른 차단 프로그램과 함께 사용하면 uBlock Origin의 개인정보 보호기능, 차단 회피 방해 기능들이 작동하는것을 방해 할수도 있습니다.
 
@@ -142,7 +142,7 @@ uBlock Origin의 효율을 극대화 하기 위해, 다른 차단 프로그램�
 
 ## 정보
 
-[uBlock Origin의 원칙](MANIFESTO.md).
+[uBlock Origin의 원칙](MANIFESTO.md)
 
 무료이며, 오픈소스이며, 사용자의, 사용자에 의한, 사용자를 위한 프로그램입니다. 어떠한 기부도 바라지 않습니다.
 
