@@ -1,4 +1,4 @@
-[![빌드]](https://travis-ci.org/gorhill/uBlock.svg?branch=master)](https://travis-ci.org/gorhill/uBlock)
+[![빌드](https://travis-ci.org/gorhill/uBlock.svg?branch=master)](https://travis-ci.org/gorhill/uBlock)
 [![번역참여](https://d322cqt584bo4o.cloudfront.net/ublock/localized.svg)](https://crowdin.com/project/ublock)
 [![라이센스](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/gorhill/uBlock/blob/master/LICENSE.txt)
 
@@ -93,7 +93,7 @@ There is also a development version in the Chrome Web Store if you want to test 
 
 uBlock Origin은 어떠한 크로미움 기반 브라우저에도 적용될수 있도록 설계되었습니다.
 
-#### Firefox / Firefox 안드로이드 버전
+#### Firefox / Firefox for android
 
 [Firefox 애드온 웹사이트](https://addons.mozilla.org/addon/ublock-origin/)
 
@@ -110,13 +110,13 @@ There is no guarantee the package will be available on your specific platform --
 
 #### Microsoft Edge
 
-제작자: [Nik Rolls](https://github.com/nikrolls/uBlock-Edge).
+제작자: [Nik Rolls](https://github.com/nikrolls/uBlock-Edge)
 
 크로미움 기반 Edge: Stable version available in [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/odfafepnkmbhccpbejgmiehpchacaeak).
 
 #### Safari (macOS)
 
-개발자: [@el1t](https://github.com/el1t).
+개발자: [@el1t](https://github.com/el1t)
 
 테스트 버전을 설치 해볼수 있습니다. <https://github.com/el1t/uBlock-Safari#ublock-originfor-safari>
 
@@ -153,3 +153,6 @@ Below is documentation to assist administrators in deploying uBlock Origin:
 ## 라이센스
 
 [GPLv3](https://github.com/gorhill/uBlock/blob/master/LICENSE.txt).
+
+## 번역 문의
+Issuse 탭을 이용해 주세요.
