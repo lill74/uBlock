@@ -1,6 +1,6 @@
-[![Build](https://travis-ci.org/gorhill/uBlock.svg?branch=master)](https://travis-ci.org/gorhill/uBlock)
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/ublock/localized.svg)](https://crowdin.com/project/ublock)
-[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/gorhill/uBlock/blob/master/LICENSE.txt)
+[![빌드]](https://travis-ci.org/gorhill/uBlock.svg?branch=master)](https://travis-ci.org/gorhill/uBlock)
+[![번역참여](https://d322cqt584bo4o.cloudfront.net/ublock/localized.svg)](https://crowdin.com/project/ublock)
+[![라이센스](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/gorhill/uBlock/blob/master/LICENSE.txt)
 
 *** 
 
@@ -12,20 +12,20 @@ uBlock Origin
 </h1>
 <p align="center">
 <sup> <!-- Pronounciation -->
-      pronounced <i>you-block origin</i> (<code>/ˈjuːˌblɒk/</code>) — <i>you</i> decide what enters your browser.
+      <i>유-블록 오리진</i>  이라고 부릅니다(<code>/ˈjuːˌblɒk/</code>) — <i>당신</i>이 원하는대로 브라우저를 만들어 보세요.
 </sup>
 <br>
 <sup> <!-- Languages -->
       <img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/languageicon-36.png" width="18" height="18">
       <sup>
-            English,
+            Korean (한국어),
+                        <a href="https://github.com/gorhill/uBlock/blob/master/README.md">English</a>,
             <a href="https://github.com/fang5566/uBlock/blob/master/README.md#ublock-origin">Chinese (中文)</a>,
-            <a href="https://github.com/delightbot/uBlock/blob/master/README.md#ublock-origin">Korean (한국어)</a>,
             <a href="https://github.com/ialexsilva/uBlock/blob/master/README.md#ublock-origin">Português (Brasil)</a>
       </sup>
 </sup>
 <br>
-<sub><a href="https://github.com/gorhill/uBlock/wiki/uBlock-Origin-is-completely-unrelated-to-the-web-site-ublock.org"><b>BEWARE!</b> uBlock Origin is (and has always been) COMPLETELY UNRELATED to the web site <code>ublock.org</code></a>.</sub>
+<sub><a href="https://github.com/gorhill/uBlock/wiki/uBlock-Origin-is-completely-unrelated-to-the-web-site-ublock.org"><b>주의하세요!</b> uBlock Origin은 <code>ublock.org</code>와 전혀 상관 없습니다</a>.</sub>
 </p>
 
 ***
@@ -35,45 +35,45 @@ uBlock Origin
 <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm"><img src="https://user-images.githubusercontent.com/585534/107280622-91a8ea80-6a26-11eb-8d07-77c548b28665.png" alt="Get uBlock Origin for Chromium"></a>
 <a href="https://microsoftedge.microsoft.com/addons/detail/odfafepnkmbhccpbejgmiehpchacaeak"><img src="https://user-images.githubusercontent.com/585534/107280673-a5ece780-6a26-11eb-9cc7-9fa9f9f81180.png" alt="Get uBlock Origin for Microsoft Edge"></a>
 <a href="https://addons.opera.com/extensions/details/ublock/"><img src="https://user-images.githubusercontent.com/585534/107280692-ac7b5f00-6a26-11eb-85c7-088926504452.png" alt="Get uBlock Origin for Opera"></a>
-      <br><sub><a href="https://twitter.com/gorhill/status/1033706103782170625">Do <b>not</b> use uBlock Origin along with other similarly-purposed blockers</a>.</sub>
-      <br><sub>See below for <a href="#installation">more installation options.</a></sub>
+      <br><sub><a href="https://twitter.com/gorhill/status/1033706103782170625">다른 광고 차단 프로그램들과 <b>절대로</b> 같이 사용하지 마세요</a>.</sub>
+      <br><sub><a href="#installation">아래</a>에 더 많은 설치 방법들이 있습니다.</sub>
 </p>
 
 ***
 
-**An efficient blocker add-on for various browsers. Fast, potent, and lean.**
+**다양한 브라우저를 위한 빠르고, 강력하고, 효율적인 차단 프로그램**
 
-uBlock Origin is **NOT** an "ad blocker": [it is a wide-spectrum blocker](https://github.com/gorhill/uBlock/wiki/Blocking-mode) -- which happens to be able to function as a mere "ad blocker". The default behavior of uBlock Origin when newly installed is to block ads, trackers and malware sites -- through [_EasyList_](https://easylist.github.io/#easylist), [_EasyPrivacy_](https://easylist.github.io/#easyprivacy), [_Peter Lowe’s ad/tracking/malware servers_](https://pgl.yoyo.org/adservers/policy.php), [_Online Malicious URL Blocklist_](https://gitlab.com/curben/urlhaus-filter#urlhaus-malicious-url-blocklist), and uBlock Origin's [own filter lists](https://github.com/uBlockOrigin/uAssets/tree/master/filters).
+uBlock Origin은 단순한 광고 차단 기능만 하는 프로그램이 **아닌**, [범용적인 차단 프로그램 입니다](https://github.com/gorhill/uBlock/wiki/Blocking-mode). uBlock Origin은 [_EasyList_](https://easylist.github.io/#easylist), [_EasyPrivacy_](https://easylist.github.io/#easyprivacy), [_Peter Lowe’s ad/tracking/malware servers_](https://pgl.yoyo.org/adservers/policy.php), [_Online Malicious URL Blocklist_](https://gitlab.com/curben/urlhaus-filter#urlhaus-malicious-url-blocklist), 그리고 uBlock Origin의 [자체적 필터들](https://github.com/uBlockOrigin/uAssets/tree/master/filters)과 함께 설치되어 광고, 추적 프로그램, 악성 사이트들을 차단합니다.
 
 ***
 
-* [Documentation](#documentation)
-* [Purpose & General Info](#philosophy)
-* [Installation](#installation)
+* [설명서](#documentation)
+* [일반 정보](#philosophy)
+* [설치방법](#installation)
   * [Chromium](#chromium)
   * [Firefox](#firefox--firefox-for-android)
   * [Microsoft Edge](#microsoft-edge)
   - [Safari (macOS)](#safari-macos)
-* [Release History](#release-history)
-* [Privacy policy](https://github.com/gorhill/uBlock/wiki/Privacy-policy)
-* [Wiki](https://github.com/gorhill/uBlock/wiki)
+* [릴리즈 내역](#release-history)
+* [개인정보 보호 방침](https://github.com/gorhill/uBlock/wiki/Privacy-policy)
+* [위키](https://github.com/gorhill/uBlock/wiki)
 
-## Documentation
+## 설명서
 
- Basic mode | Advanced-user mode
+ 기본 모드 | 고급 사용자 모드
 :----------:|:------------------:
-[Popup user interface](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface) | [A point-and-click firewall which can be configured on a per-site basis](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide) 
-<a href="https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface"><img src="https://user-images.githubusercontent.com/585534/84045360-b10ee580-a976-11ea-9e91-29c2107b47c2.png" /></a><br><sup>.<br>.</sup> | <a href="https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide"><img src="https://user-images.githubusercontent.com/585534/84045366-b1a77c00-a976-11ea-9121-e8c8f35c66c8.png" /></a><br><sup>Configure as you wish:<br>picture shows 3rd-party scripts and frames blocked by default everywhere</sup>
+[팝업 유저 인터페이스](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface) | [클릭 한번으로 사이트별 차단 설정](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide) 
+<a href="https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface"><img src="https://user-images.githubusercontent.com/585534/84045360-b10ee580-a976-11ea-9e91-29c2107b47c2.png" /></a><br><sup>.<br>.</sup> | <a href="https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide"><img src="https://user-images.githubusercontent.com/585534/84045366-b1a77c00-a976-11ea-9121-e8c8f35c66c8.png" /></a><br><sup>원하는 대로 설정 할 수 있습니다<br>사진: 모든 웹사이트에서 외부 스크립트와 외부 프레임을 차단함 </sup>
 
-Visit the [uBlock Origin's wiki](https://github.com/gorhill/uBlock/wiki) for documentation.
+[uBlock Origin 위키](https://github.com/gorhill/uBlock/wiki)를 방문해 더 많은 내용을 살펴보세요.
 
-For support/questions/help, there is [/r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin/) on Reddit.
+질문이나 도움이 필요하다면 서브레딧 [/r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin/)을 사용해 보세요.
 
-## Philosophy
+## 우리의 철학
 
-uBlock Origin (or uBlock₀) is not an *ad blocker*; it's a general-purpose blocker. uBlock Origin blocks ads through its support of the [Adblock Plus filter syntax](https://adblockplus.org/en/filters). uBlock Origin [extends](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions) the syntax and is designed to work with custom rules and filters. Furthermore, advanced mode allows uBlock Origin to work in [default-deny mode](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-default-deny), which mode will cause [all 3rd-party network requests](https://requestpolicycontinued.github.io/#what-are-cross-site-requests) to be blocked by default, unless allowed by the user.
+uBlock Origin (또는 uBlock₀) 단순한 *광고 차단 프로그램* 이 아닌, 여러가지 상황에서 쓸 수 있는 범용 차단 프로그램 입니다. uBlock Origin은 [Adblock Plus 필터 구문](https://adblockplus.org/en/filters)을 이용해 광고를 차단합니다. uBlock Origin 은 확장된 [문법들](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions) 을 통하여 사용자가 만든 규칙들과 필터를 사용할수 있도록 만들어 졌습니다. Furthermore, advanced mode allows uBlock Origin to work in [default-deny mode](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-default-deny), which mode will cause [all 3rd-party network requests](https://requestpolicycontinued.github.io/#what-are-cross-site-requests) to be blocked by default, unless allowed by the user.
 
-That said, it's important to note that using a blocker is **NOT** [theft](https://twitter.com/LeaVerou/status/518154828166725632). Don't fall for this creepy idea. The _ultimate_ logical consequence of `blocking = theft` is the criminalisation of the inalienable right to privacy.
+기억해두세요, 이 차단 프로그램을 사용하는것은, *절대로* [도둑질을 하는것](https://twitter.com/LeaVerou/status/518154828166725632)이  아닙니다. Don't fall for this creepy idea. The _ultimate_ logical consequence of `광고 차단 프로그램을 사용하는것 = 도둑질이다` is the criminalisation of the inalienable right to privacy.
 
 Ads, "unintrusive" or not, are just the visible portions of privacy-invading apparatus entering your browser when you visit most sites nowadays. **uBlock Origin's main goal is to help users neutralize such privacy-invading apparatus** — in a way that welcomes those users who don't wish to use more technical, involved means (such as [uMatrix](https://github.com/gorhill/uMatrix)).
 
@@ -81,46 +81,46 @@ _EasyList_, _EasyPrivacy_, _Peter Lowe's_, _Online Malicious URL Blocklist_ and 
 
 Once you install uBlock Origin, you may easily un-select any of the pre-selected filter lists if you think uBlock Origin blocks too much. For reference, Adblock Plus installs with only _EasyList_ enabled by default.
 
-## Installation
+## 설치 방법
 
-Feel free to read [about the extension's required permissions](https://github.com/gorhill/uBlock/wiki/Permissions).
+기회가 된다면 [프로그램이 필요하는 권한 목록](https://github.com/gorhill/uBlock/wiki/Permissions)을 읽어 보세요.
 
 #### Chromium
 
-You can install the latest version [manually](https://github.com/gorhill/uBlock/tree/master/dist#install), from the [Chrome Web Store](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), or from the [Opera add-ons](https://addons.opera.com/extensions/details/ublock/).
+최신 버전을 [수동](https://github.com/gorhill/uBlock/tree/master/dist#install)으로 설치하거나, [크롬 웹스토어](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), 혹은 [오페라 애드온 웹사이트](https://addons.opera.com/extensions/details/ublock/)를 통해 설치할수 있습니다.
 
 There is also a development version in the Chrome Web Store if you want to test uBlock Origin with the latest changes: see [_uBlock Origin dev build_](https://chrome.google.com/webstore/detail/ublock-origin-dev-build/cgbcahbpdhpcegmbfconppldiemgcoii).
 
-It is expected that uBlock Origin is compatible with any Chromium-based browsers.
+uBlock Origin은 어떠한 크로미움 기반 브라우저에도 적용될수 있도록 설계되었습니다.
 
-#### Firefox / Firefox for Android
+#### Firefox / Firefox 안드로이드 버전
 
-[Firefox Add-ons web site](https://addons.mozilla.org/addon/ublock-origin/).
+[Firefox 애드온 웹사이트](https://addons.mozilla.org/addon/ublock-origin/)
 
-There is also a development version if you want to test uBlock Origin with the latest changes: for installation, see [Install / Firefox webext / For beta version](https://github.com/gorhill/uBlock/blob/master/dist/README.md#for-beta-version)
+uBlock Origin의 테스트 버전을 사용해보고 싶으시다면, [Install / Firefox webext / For beta version](https://github.com/gorhill/uBlock/blob/master/dist/README.md#for-beta-version)
 
 uBlock Origin is compatible with [SeaMonkey](http://www.seamonkey-project.org/), [Pale Moon](https://www.palemoon.org/), and possibly other browsers based on Firefox: for installation, see [Install / Firefox legacy](https://github.com/gorhill/uBlock/blob/master/dist/README.md#firefox-legacy).
 
-uBO may also be installed as a [Debian package](https://packages.debian.org/stable/source/ublock-origin):
+[데비안 패키지 매니저](https://packages.debian.org/stable/source/ublock-origin)를 통해서도 uBlock Origin을 설치 할수 있습니다:
 
-- Firefox 56-: `apt-get install xul-ext-ublock-origin`
-- Firefox 55+: `apt-get install webext-ublock-origin`
+- Firefox 56 이하: `apt-get install xul-ext-ublock-origin`
+- Firefox 55 이상: `apt-get install webext-ublock-origin`
 
 There is no guarantee the package will be available on your specific platform -- in which case, you will have to install from [Firefox Add-ons web site](https://addons.mozilla.org/addon/ublock-origin/).
 
 #### Microsoft Edge
 
-Publisher: [Nik Rolls](https://github.com/nikrolls/uBlock-Edge).
+제작자: [Nik Rolls](https://github.com/nikrolls/uBlock-Edge).
 
-Chromium-based Edge: Stable version available in [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/odfafepnkmbhccpbejgmiehpchacaeak).
+크로미움 기반 Edge: Stable version available in [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/odfafepnkmbhccpbejgmiehpchacaeak).
 
 #### Safari (macOS)
 
-Developer: [@el1t](https://github.com/el1t).
+개발자: [@el1t](https://github.com/el1t).
 
-Development version available at <https://github.com/el1t/uBlock-Safari#ublock-originfor-safari>.
+테스트 버전을 설치 해볼수 있습니다. <https://github.com/el1t/uBlock-Safari#ublock-originfor-safari>
 
-Warning: It is not possible for extensions like uBlock Origin to work with Safari 13+. See <https://github.com/el1t/uBlock-Safari/issues/158>.
+주의하세요! Safari 13 이상에서는 uBlock Origin과 같은 프로그램들이 작동하지 않습니다 <https://github.com/el1t/uBlock-Safari/issues/158>를 확인해 보세요.
 
 Note that issues specific to the Safari fork are the responsibility of the current maintainer, I have no control over the code base of the fork.
 
@@ -128,31 +128,28 @@ Note that issues specific to the Safari fork are the responsibility of the curre
 
 To benefit from uBlock Origin's higher efficiency, it's advised that you don't use other content blockers at the same time (such as Adblock Plus, AdBlock). uBlock Origin will do [as well or better](#blocking) than most popular ad blockers. Other blockers can also prevent uBlock Origin's privacy or anti-blocker-defusing features from working properly.
 
-#### Deploying
+#### 배포
 
 Below is documentation to assist administrators in deploying uBlock Origin:
 
-- [Deploying uBlock Origin](https://github.com/gorhill/uBlock/wiki/Deploying-uBlock-Origin)
-    - Firefox: [Deploying uBlock Origin for Firefox with CCK2 and Group Policy](http://decentsecurity.com/ublock-for-firefox-deployment/) (external)
-    - Google Chrome: [Managing Google Chrome with adblocking and security](https://decentsecurity.com/ublock-for-google-chrome-deployment/) (external)
+- [uBlock Origin 배포하기](https://github.com/gorhill/uBlock/wiki/Deploying-uBlock-Origin)
+    - Firefox: [Deploying uBlock Origin for Firefox with CCK2 and Group Policy](http://decentsecurity.com/ublock-for-firefox-deployment/) (외부링크)
+    - Google Chrome: [Managing Google Chrome with adblocking and security](https://decentsecurity.com/ublock-for-google-chrome-deployment/) (외부링크)
 
-## Release History
+## 릴리즈 내역
 
-See the [releases pages](https://github.com/gorhill/uBlock/releases) for a history of releases and highlights for each release.
+[릴리즈 페이지](https://github.com/gorhill/uBlock/releases) 에서 릴리즈 내역과 릴리즈에 대한 하이라으트 부분을 볼 수 있습니다.
 
-## About
+## 정보
 
-[uBlock Origin's manifesto](MANIFESTO.md).
+[uBlock Origin의 원칙](MANIFESTO.md).
 
-Free. Open source. For users by users. No donations sought.
+무료이며, 오픈소스이며, 사용자의, 사용자에 의한, 사용자를 위한 프로그램입니다. 어떠한 기부도 바라지 않습니다.
 
-Without the preset lists of filters, this extension is nothing. So if ever you
-really do want to contribute something, think about the people working hard
-to maintain the filter lists you are using, which were made available to use by
-all for free.
+이 프로그램에 포함되어 있는 필터가 없다면, 이 프로그램은 쓸모가 없어집니다. 그러니 어떤것이라도 기여하고 싶은 마음이 든신다면, 무료로 쓸 수 있게 만들어진 필터에 기여해 주세요.
 
-You can contribute by helping translate uBlock Origin [on Crowdin](https://crowdin.net/project/ublock).
+여러분들은 uBlock Origin의 번역을 [Crowdin](https://crowdin.net/project/ublock)에서 도와 주실수 있습니다.
 
-## License
+## 라이센스
 
 [GPLv3](https://github.com/gorhill/uBlock/blob/master/LICENSE.txt).
