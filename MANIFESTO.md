@@ -1,10 +1,7 @@
-### This is uBlock's manifesto
+### uBlock의 원칙
 
-1. The **user decides** what web content is acceptable or not in their browser.
+1. **사용자가** 브라우저에서 웹 컨텐츠를 자유자재로 허용 여부를 결정해야 한다.
 
-The uBlock project does not support Adblock Plus' _"Acceptable Ads Manifesto"_,
-because the _"Acceptable Ads"_ marketing campaign is really the business
-plan of a for-profit entity.
+uBlock 프로젝트는 애드블록 플러스의 _"허용되는 광고 원칙"_ 를 옹호하지 않습니다, 그 이유는 _"허용되는 광고"_ 마케팅 캠페인은 영리를 위한 사업적 계획이기 때문입니다.
 
-Users are best placed to know what is or is not acceptable to them. uBlock's
-sole purpose is to give users the means to enforce their own choices.
+사용자들은 원하는 것과 원하지 않는 것에 대해 알 수 있는 제일 좋은 위치입니다. uBlock은 이러한 사용자들에게 자신의 선택을 행사할 수 있는 수단을 제공하는 것입니다.
